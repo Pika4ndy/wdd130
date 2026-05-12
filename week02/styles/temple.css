@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+}
+
+header p {
+    width: 530px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    margin: auto;
+    font-size: larger;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+main section {
+    background-color: rgba(221, 221, 221, 1);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid rgb(207, 207, 207)
+}
+
+main section h2 {
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+}
+
+main section p {
+    text-align: start;
+}
+
+main section li {
+    text-align: start;
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    box-shadow: 0 0 30px black;
+    width: 400px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
