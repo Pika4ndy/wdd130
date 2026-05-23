@@ -1,8 +1,7 @@
 :root {
     --primary-color: darkblue;
-    /* --secondary-color: blue; */
+    --secondary-color: blue;
     --accent-color: green;
-    /* --body-color: black; */
     --heading-font: "Times New Roman", serif;
     --body-font: 'Trebuchet MS',
         'Lucida Sans Unicode',
@@ -47,7 +46,13 @@ body {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: white;
+}
+
+h2 {
+    background-color: var(--secondary-color);
+    opacity: 0.8;
+    padding: 10px 20px;
 }
 
 nav,
@@ -94,11 +99,12 @@ article {
     position: absolute;
     bottom: 10px;
     background-color: var(--accent-color);
-    opacity: 0.7;
-    color: var(--primary-color)
+    opacity: 0.9;
+    color: white
 }
 
 .hero article img {
     float: right;
     width: 200px;
+    opacity: 1;
 }
