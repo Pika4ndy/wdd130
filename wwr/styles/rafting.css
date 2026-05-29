@@ -1,7 +1,7 @@
 :root {
-    --primary-color: darkblue;
-    --secondary-color: blue;
-    --accent-color: green;
+    --primary-color: #111844;
+    --secondary-color: #4B5694;
+    --accent-color: #7288AE;
     --heading-font: "Times New Roman", serif;
     --body-font: 'Trebuchet MS',
         'Lucida Sans Unicode',

@@ -4,14 +4,19 @@ body {
 }
 
 .flex-container {
+    height: 50rem;
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .flex-item {
-    width: 250px;
+    width: 150px;
+    height: 150px;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 20%);
     padding: 0.5rem;
@@ -23,10 +28,10 @@ body {
     min-height: 100px;
 }
 
-.item2 {
+/* .item2 {
     min-height: 200px;
-}
+} */
 
-.item3 {
+/* .item3 {
     min-height: 300px;
-}
+} */
