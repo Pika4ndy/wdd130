@@ -2,8 +2,8 @@
     --primary-color: #111844;
     --secondary-color: #4B5694;
     --accent-color: #7288AE;
-    --text-on-colored-background: white;
-    --body-color: black;
+    --text-on-colored-background: #fff;
+    --body-color: #000;
     --heading-font: "Times New Roman", serif;
     --body-font: 'Trebuchet MS',
         'Lucida Sans Unicode',
@@ -71,7 +71,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: white;
+    color: var(--text-on-colored-background);
 }
 
 h2 {
@@ -94,12 +94,12 @@ section {
 }
 
 figure {
-    max-width: 300px;
+    max-width: 200px;
     text-align: center;
 }
 
 figure img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
@@ -126,7 +126,7 @@ figure img {
     text-align: center;
     opacity: 0.7;
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--text-on-colored-background);
 }
 
 .hero img {
@@ -169,10 +169,10 @@ figure img {
 }
 
 .invite {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(5, 20%);
+    /* gap: 10px; */
 }
 
 .invite h2 {
-    grid-column: 1/5;
+    grid-column: 1 / 6;
 }
