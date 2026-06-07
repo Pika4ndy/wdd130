@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main {
+    width: 650px;
+    margin: 5px auto;
+}
+
+form {
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #eee;
+    padding: 1rem;
+    display: grid;
+}
+
+form div {
+    text-align: start;
+    display: grid;
+    margin: .75rem;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    font-size: 1.1em;
+    padding: 10px;
+    margin: .5rem;
+
+}
+
+textarea {
+    height: 75px;
+}
+
+label[for="q1"]::before {
+    content: "1. ";
+    color: navy;
+    font-size: 1.1em;
+    /* padding-right: .4rem; */
+    font-weight: 550;
+}
+
+label[for="q2"]::before {
+    content: "2. ";
+    color: navy;
+    font-size: 1.1em;
+    /* padding-right: .4rem; */
+    font-weight: 550;
+}
+
+label[for="q3"]::before {
+    content: "3. ";
+    color: navy;
+    font-size: 1.1em;
+    /* padding-right: .4rem; */
+    font-weight: 550;
+}
+
+label[for="q4"]::before {
+    content: "4. ";
+    color: navy;
+    font-size: 1.1em;
+    /* padding-right: .4rem; */
+    font-weight: 550;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: .5rem;
+}
