@@ -267,3 +267,20 @@ iframe {
 .form-subscription input {
     align-self: center;
 }
+
+.serve {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.serve h2 {
+    grid-column: 1/5;
+}
+
+.serve p {
+    grid-column: 1/5;
+    font-size: .5em;
+    font-weight: 100;
+    text-align: center;
+    border-top: 1px solid #eee;
+    color: #aaa;
+}
