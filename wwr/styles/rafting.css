@@ -212,23 +212,30 @@ iframe {
 .info {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.map {
+    width: 50%;
 }
 
 .user-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 41%;
 }
 
 /* submit button */
 .user-form button {
-    width: 100%;
+    width: 90%;
     height: 40px;
     background-color: var(--primary-color);
     color: var(--text-on-colored-background);
     border: none;
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px auto;
     padding: 5px;
     font-weight: 700;
     font-size: 1.1em;
@@ -244,14 +251,14 @@ iframe {
     margin: 10px;
     align-items: center;
     justify-content: end;
-    text-align: center;
+    text-align: start;
 }
 
 .form-message-purpose {
     display: grid;
     grid-template-columns: 80px 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
     margin: 10px;
 }
 
@@ -271,11 +278,13 @@ iframe {
 
 .form-message textarea {
     width: 100%;
-    margin: 5px 10px;
+    margin: 5px auto;
+    resize: none;
 }
 
 .form-subscription input {
     align-self: center;
+    text-align: center;
 }
 
 .serve {
@@ -291,6 +300,6 @@ iframe {
     font-size: .5em;
     font-weight: 100;
     text-align: center;
-    border-top: 1px solid #eee;
-    color: #aaa;
+    border-top: 1px solid #bbb;
+    color: #1e1e1e;
 }
