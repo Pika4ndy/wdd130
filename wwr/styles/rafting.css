@@ -40,6 +40,13 @@ header {
     color: var(--text-on-colored-background);
 }
 
+header img {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 1.5em;
+    margin: 5px;
+}
+
 nav a {
     text-decoration: none;
     color: var(--text-on-colored-background);
@@ -213,15 +220,18 @@ iframe {
     justify-content: space-between;
 }
 
+/* submit button */
 .user-form button {
     width: 100%;
-    height: 25px;
+    height: 40px;
     background-color: var(--primary-color);
     color: var(--text-on-colored-background);
     border: none;
     border-radius: 5px;
     margin: 10px;
     padding: 5px;
+    font-weight: 700;
+    font-size: 1.1em;
 }
 
 .user-form button:hover {
