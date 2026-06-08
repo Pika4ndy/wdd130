@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact information and contact form for questions">
+    <meta name="author" content="Andrianarivo Andy Mahery Christiano">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Rafting Contact Information</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr-logo.jpeg" alt="Whitewater Rafting Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Rapids: White Water Rafting Company</h1>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>7258 Racquet Club Dr, Salt Lake City, UT 84121</p>
+            <p>Utah, USA</p>
+            <p>+1 123 456 7890</p>
+            <p>rapids@whitewaterrafting.com</p>
+        </section>
+
+        <section class="info">
+            <section class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1356.5423038274803!2d-111.79224523764451!3d40.61898540303485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87526378cc339f47%3A0xb1628ba34a18a485!2sWestern%20River%20Expeditions!5e1!3m2!1sen!2smg!4v1780899364486!5m2!1sen!2smg"
+                  width="400" height="300" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <form class="user-form">
+                    <div class="form-item">
+                        <label for="fullname">Name:</label>
+                        <input type="text" id="fulname" name="fullname" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-message-purpose">
+                        <h3>Message Purpose</h3>
+                        <div class="radio-item">
+                            <input type="radio" id="general-inquiry" name="purpose"
+                              value="general-inquiry">
+                            <label for="general-inquiry">General inquiry</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="reservation-question" name="purpose"
+                              value="reservation question">
+                            <label for="reservation-question">Reservation Question</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="form-message">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"
+                          placeholder="Enter your message here ..." required rows="5"></textarea>
+                    </div>
+                    <div class="form-subscription">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Subscribe to our monthly newsletter!</label>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit">Get in touch!</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+
+        <!-- <section>
+            <figure>
+                <img src="images/" alt="Employee 1">
+                <figcaption></figcaption>
+            </figure>
+        </section> -->
+    </main>
+    <footer>
+        <p>
+            &copy; 2026 🌊 Rapids 🌊 Andrianarivo Andy
+        </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
