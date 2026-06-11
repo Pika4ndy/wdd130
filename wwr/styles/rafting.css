@@ -41,6 +41,7 @@ header {
     color: var(--text-on-colored-background);
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 header img {
@@ -52,9 +53,17 @@ header img {
     justify-self: center;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: var(--text-on-colored-background);
+    padding: 15px;
+
+}
+
+header nav a:hover {
+    background-color: var(--text-on-colored-background);
+    border-radius: 5px;
+    color: #000;
 }
 
 nav ul {
@@ -65,19 +74,18 @@ nav ul {
 }
 
 nav ul li {
-    padding: 10px 35px;
+    padding: 10px 25px;
     display: block;
-    /* border: 2px solid var(--primary-color); */
 }
 
 footer {
     display: grid;
     grid-template-columns: 1fr 250px;
-    /* justify-content: space-between; */
     align-items: center;
     text-align: center;
     gap: 0;
-    color: var(--accent-color)
+    color: var(--text-on-colored-background);
+    background-color: var(--accent-color);
 }
 
 h1,
@@ -138,7 +146,16 @@ iframe {
     height: 100%;
 }
 
+button:active {
+    transform: translate(3px, 1px);
+}
+
 /* Class Selectors */
+
+.current-page {
+    text-decoration: underline solid var(--text-on-colored-background);
+}
+
 /* Home page */
 
 .subscription-form {
@@ -157,6 +174,10 @@ iframe {
     font-weight: 700;
     font-size: 1.1em;
     justify-self: center;
+}
+
+.subscription-form button:hover {
+    background-color: var(--accent-color);
 }
 
 .newsletter-button {
@@ -376,20 +397,30 @@ iframe {
     grid-column: 1;
 }
 
-.serve p {
-    /* grid-column: 1/5; */
-    font-size: .5em;
-    font-weight: 100;
-    text-align: center;
-    border-top: 1px solid #bbb;
-    color: #1e1e1e;
-}
-
 .serve > div {
     margin: 5px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.serve figure {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #bbb;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    background-color: #eee;
+    text-align: center;
+}
+
+.serve figcaption {
+    align-self: center;
+}
+
+.serve img {
+    justify-self: center;
 }
 
 .employee-title {
