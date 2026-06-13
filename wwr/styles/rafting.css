@@ -173,6 +173,27 @@ button:active {
     transform: scale(0.96);
 }
 
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--text-on-colored-background);
+    border: 2px solid var(--body-color);
+    padding: 10px 5px;
+}
+
+td {
+    text-align: center;
+    border: 2px solid var(--body-color);
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #c7cfffd5;
+}
+
 /* Class Selectors */
 
 .current-page {
